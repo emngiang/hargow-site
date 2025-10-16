@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hargow – Your Pantry Mate!</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="assets/favicon.ico" />
+  <meta name="description" content="Hargow is your smart pantry mate! Manage ingredients, avoid waste, and cook better meals." />
+</head>
+<body>
+  <header class="hero">
+    <img src="assets/logo.png" alt="Hargow logo" class="logo" />
+    <h1>Hargow</h1>
+    <p class="tagline">your pantry mate!</p>
+    <a href="#" class="button disabled">Coming Soon</a>
+  </header>
+
+  <main>
+    <section id="about" class="content">
+      <h2>About Hargow</h2>
+      <p>
+        Hargow helps you keep track of your pantry, reduce food waste, and find recipes using ingredients you already have.
+        Powered by a friendly AI dumpling, Hargow reminds you when things are about to expire — so your meals stay fresh and fun.
+      </p>
+      <p>
+        The app is designed for busy home cooks who want to make smart, sustainable choices without extra effort.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Hargow. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a> | Contact: <a href="mailto:support@get-hargow.com">support@get-hargow.com</a></p>
+  </footer>
+
+  <script>
+    // Auto-update footer year
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
